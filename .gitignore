@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Distribuciones y empaquetados
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Archivos de PyInstaller
+*.spec
+
+# Base de datos SQLite (opcional: si quieres que no se suba)
+data/*.db
+*.sqlite3
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de sistema
+*.swp
+*.swo
+.DS_Store
+
+# Cachés de pytest
+.cache/
+
+# Archivos de configuración de Python
+*.pyo
+*.pyd
+
+# Archivos de cobertura
+.coverage
+htmlcov/
+
+# Archivos de migración si usas alembic u otro
+migrations/
+
+# Archivos de entorno
+.env
+
+# Carpeta de __pycache__ dentro de src si la hay
+src/**/__pycache__/
