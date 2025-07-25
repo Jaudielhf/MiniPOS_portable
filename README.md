@@ -59,20 +59,17 @@ pip install -r requirements.txt
 ▶️ Uso
 Para ejecutar la aplicación:
 
-bash
-Copiar
-Editar
+```bash
 python main.py
+```
 Para generar un ejecutable portable (.exe):
 
-bash
-Copiar
-Editar
+```bash
 pyinstaller --noconsole --onefile main.py
+```
+
 🗂️ Estructura del proyecto
-bash
-Copiar
-Editar
+```bash
 MiniPOS_portable/
 │
 ├── main.py                 # Punto de entrada principal
@@ -85,6 +82,8 @@ MiniPOS_portable/
 │   └── db/                 # Módulos para acceso y gestión de DB
 ├── /assets/                # Recursos gráficos (íconos, logos)
 └── README.md               # Documentación del proyecto
+
+```
 🤝 Contribuciones
 ¡Se aceptan mejoras! Si quieres contribuir, haz un fork, desarrolla tus cambios y crea un pull request.
 Por favor, sigue las buenas prácticas y mantén el código limpio y documentado.
